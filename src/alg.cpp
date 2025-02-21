@@ -1,4 +1,4 @@
-// Copyright 2021 NNTU-CS
+
 // Алгоритм Евклида
 
 
@@ -10,3 +10,4 @@ int gcd(int a, int b) {
     }
     return a;
 }
+// Copyright 2021 NNTU-CS
