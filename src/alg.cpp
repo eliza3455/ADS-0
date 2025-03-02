@@ -1,10 +1,10 @@
-//Copyright 2021 NNTU-CS
-//Алгоритм Евклида
-  int gcd(int a, int b) {
-      while (b != 0) {
-          int temp = b;
-        b = a % b;
-      a = temp;
+function chechPrime(value){
+    for (let i = 2; i < value; i++) {
+        if (value % i === 0){
+            return false
+        }
       }
-    return a;
-      }
+      return value!==1
+}
+
+// chechPrime(2) 1 задание
